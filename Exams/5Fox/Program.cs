@@ -37,6 +37,7 @@ class Program
         {
             Console.WriteLine("{0}\\{1}/{0}", new string('-', tiretaDown), new string('*', starsDown));
             starsDown = starsDown - 2;
+            tiretaDown++;
         }
     }
 }
